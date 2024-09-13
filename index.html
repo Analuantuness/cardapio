@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio de Pratos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cardápio de Pratos</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="gallery">
+            <!-- Repetindo os cards para incluir 9 pratos -->
+            <div class="card">
+                <img src="img1.png" alt="Imagem de sorvete de casquinha saboroso">
+                <button onclick="expandImage('img1.png')">Ver Imagem maior</button>
+                <button onclick="playDescription('sorvete de casquinha saboroso')">Ouvir Descrição</button>
+            </div>
+            <div class="card">
+                <img src="img2.png" alt="Imagem de uma torta holandesa deliciosa">
+                <button onclick="expandImage('img2.png')">Ver Imagem maior</button>
+                <button onclick="playDescription('torta holandesa deliciosa')">Ouvir Descrição</button>
+            </div>
+            <div class="card">
+                <img src="img3.png" alt="Imagem de um bombom de morango">
+                <button onclick="expandImage('img3.png')">Ver Imagem maior</button>
+                <button onclick="playDescription('Bombom de morango')">Ouvir Descrição</button>
+            </div>
+            <div class="card">
+                <img src="img4.png" alt="Imagem de sushi de salmão">
+                <button onclick="expandImage('img4.png')">Ver Imagem maior</button>
+                <button onclick="playDescription('Sushi de salmão com arroz temperado e alga nori')">Ouvir Descrição</button>
+            </div>
+            <div class="card">
+                <img src="img5.png" alt="Imagem de torta de frango">
+                <button onclick="expandImage('img5.png')">Ver Imagem maior</button>
+                <button onclick="playDescription('Torta de frango, cremosa')">Ouvir Descrição</button>
+            </div>
+            <div class="card">
+                <img src="img6.png" alt="Imagem de um bife grelhado">
+                <button onclick="expandImage('img6.png')">Ver Imagem maior</button>
+                <button onclick="playDescription('Bife grelhado ao ponto')">Ouvir Descrição</button>
+            </div>
+            <div class="card">
+                <img src="img7.png" alt="Imagem de um suco de acerola">
+                <button onclick="expandImage('img7.png')">Ver Imagem maior</button>
+                <button onclick="playDescription('Suco de acerola')">Ouvir Descrição</button>
+            </div>
+            <div class="card">
+                <img src="img8.png" alt="Imagem de um suco de abacaxi com ortelã">
+                <button onclick="expandImage('img8.png')">Ver Imagem maior</button>
+                <button onclick="playDescription('suco de abacaxi com ortelã refrescante')">Ouvir Descrição</button>
+            </div>
+            <div class="card">
+                <img src="img9.png" alt="Imagem de um suco de abacaxi com ortelã">
+                <button onclick="expandImage('img9.png')">Ver Imagem maior</button>
+                <button onclick="playDescription('suco de morango fresco')">Ouvir Descrição</button>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
